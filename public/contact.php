@@ -18,5 +18,9 @@
             <h1>Contact Us page content</h1>
         </div>
     </section>
+
+    <section class="footer-section mt-5">
+        <!-- include here -->
+    </section>
 </body>
 </html>
