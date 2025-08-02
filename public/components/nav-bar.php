@@ -16,7 +16,7 @@
             <a class="nav-link <?= $current_page == 'contact' ? 'active text-success-emphasis fw-bold fs-5 text-decoration-underline' : '' ?>" href="contact.php">Contact Us</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">coming soon</a>
+            <a class="nav-link <?= $current_page == 'coming soon' ? 'active text-success-emphasis fw-bold fs-5 text-decoration-underline' : '' ?>" href="coming-soon.php">coming soon</a>
             </li>
         </ul>
         </div>

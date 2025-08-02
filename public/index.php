@@ -29,8 +29,6 @@
             <div class="col-lg-4">
                 <img src="https://placehold.co/600x400" alt="DNSU Online Shop" class="img-fluid">
             </div>
-            
-
         </div>
     </div>
 </section>
