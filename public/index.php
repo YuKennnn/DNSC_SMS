@@ -7,6 +7,7 @@
     <title>Landing Page | SMS</title>
 </head>
 <body>
+<<<<<<< Updated upstream
 
 <section class="nav-section">
     <?php 
@@ -28,5 +29,9 @@
     </div>
 </section>
 
+=======
+    
+    
+>>>>>>> Stashed changes
 </body>
 </html>

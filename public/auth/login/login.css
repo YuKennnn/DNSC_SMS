@@ -2,3 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.container-fluid.d-flex{
+    width: 100%;
+    max-width: 60rem;
+}
+.row.shadow-lg{
+    max-width: 900px;
+    width: 100%;
+}
+img.img-fluid{
+    width: 90% !important;
+}
