@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include 'components/links.php'; ?>
     <title>Landing Page | SMS</title>
+    <link rel="stylesheet" href="../public/css/index.css">
 </head>
 <body>
-<<<<<<< Updated upstream
+
 
 <section class="nav-section">
     <?php 
@@ -27,8 +28,9 @@
                 Click Me
                 </a>
             </div>
-            <div class="col-lg-4">
-                <img src="https://placehold.co/600x400" alt="DNSU Online Shop" class="img-fluid">
+            <div class="col-lg-4 h-75 w-35
+            ">
+                <img src="../public/image/bg img dnsc.png" alt="DNSU Online Shop" class="img-fluid">
             </div>
         </div>
     </div>

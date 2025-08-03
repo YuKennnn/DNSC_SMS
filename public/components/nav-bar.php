@@ -21,8 +21,8 @@
         </ul>
         </div>
         <div class="d-flex gap-3" role="Authentification">
-        <a href="login.php" class="btn btn-outline-success">Login</a>
-        <a href="register.php" class="btn btn-outline-success">Register</a>
+        <a href="/public/auth/login/login.php" class="btn btn-outline-success">Login</a>
+        <a href="/public/auth/register/register.php" class="btn btn-outline-success">Register</a>
         </div>
     </div>
 </nav>

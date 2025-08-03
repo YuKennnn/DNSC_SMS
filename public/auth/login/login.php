@@ -10,6 +10,11 @@
     <script src="../../bootstrap/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+<div class="position-absolute top-0 left-0">
+    <a href="../../index.php" class="btn ms-4" style="margin-top: 5rem;">
+        <i class="bi bi-arrow-left-circle-fill text-success fs-1"></i>
+    </a>
+</div>    
     <div class="container-fluid d-flex justify-content-center align-items-center vh-100">
         <div class="row shadow-lg p-0 rounded-3 overflow-hidden w-75">
 
@@ -40,7 +45,7 @@
                         <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required>
                     </div>
                     <div class="mb-3">
-                        <input type="checkbox" class="form-check-input" name="checkbox" id="checkbox">
+                        <input type="checkbox" class="form-check-input is-valid" name="checkbox" id="checkbox">
                         <label for="check" class="form-label">Remember me</label>
                     </div>
 
