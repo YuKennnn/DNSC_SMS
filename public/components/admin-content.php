@@ -1,4 +1,8 @@
-<div class="container py-4">
+        <link rel="stylesheet" href="../../public/bootstrap/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../public//fontawesome/css/all.min.css">
+        <script src="../../public/bootstrap/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../../public/bootstrap/bootstrap-icons-1.13.1/bootstrap-icons.css">
+    <div class="container py-4">
     <!-- Header Section -->
     <div class="d-flex justify-content-between align-items-center mb-4">
         <div>
