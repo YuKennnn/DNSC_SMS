@@ -30,7 +30,7 @@
                     </i>
                 </h2>
             
-            <form action="" method="post">
+            <form action="../../user/main.php" method="post">
 
                 <div class="d-flex flex-column justify-content-center me-2">
                     <div class="mb-3 ">

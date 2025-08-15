@@ -27,7 +27,7 @@
                             <i class="bi bi-bag"></i> <span class="ms-1 d-none d-sm-inline">Orders</span>
                         </a>
                     </li>
-                    <li>
+                    <li>    
                         <a href="#" class="nav-link px-0 align-middle text-white">
                             <i class="bi bi-gear"></i> <span class="ms-1 d-none d-sm-inline">Settings</span>
                         </a>
@@ -42,7 +42,7 @@
                     <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
                         <li><a class="dropdown-item" href="#">Profile</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        <li><a class="dropdown-item" href="../index.php">Sign out</a></li>
                     </ul>
                 </div>
             </div>

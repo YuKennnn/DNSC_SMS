@@ -20,7 +20,7 @@
 
     <section class="content-section mt-5">
         <div class="container">
-            <h1>Home landing page content</h1>
+            <!-- <h1>Home landing page content</h1> -->
             <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary d-flex">
                 <div class="col-lg-8 px-0">
                     <h1 class="display-4 fst-italic">Welcome to DNSU</h1><br>
