@@ -1,6 +1,7 @@
       <link rel="stylesheet" href="../../../public/userCss/navbar.css">
       <nav class="navbar navbar-expand-md bg-light fs-4">
         <div class="container-fluid ms-4 ps-4 ">
+          <img src="../../../public/image/main/dnscLOGO.png" alt="" class="img-fluid me-3 ">
           <a class="navbar-brand fs-5 text-success fw-bold" href="#">Dashboard</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +19,7 @@
             
           </div>
           <div class="d-flex">
-              <img class="btn" src="../../../public/image/main/dnscLOGO.png" type="button" data-bs-toggle="offcanvas"
+              <img class="btn rounded-circle" src="../../public/image/main/mE.png" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></img>
 
 
