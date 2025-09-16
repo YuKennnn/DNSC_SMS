@@ -21,8 +21,45 @@
         </ul>
         </div>
         <div class="d-flex gap-3" role="Authentification">
-        <a href="/public/auth/login/login.php" class="btn btn-outline-success">Login</a>
-        <a href="/public/auth/register/register.php" class="btn btn-outline-success">Register</a>
+        <a class="btn btn-outline-success" onclick="loginLink()">Login</a>
+        <a class="btn btn-outline-success" onclick="registerLink()">Register</a>
         </div>
     </div>
 </nav>
+<script>
+
+
+
+function loginLink() {
+    // Try primary
+    fetch('primary.php', {method: 'HEAD'})
+        .then(response => {
+            if (response.ok) {
+                window.location.href = '/public/auth/login/login.php';
+            } else {
+                window.location.href = '../../../DNSC_SMS/public/auth/login/login.php';
+            }
+        })
+        .catch(() => {
+            // If fetch fails completely
+            window.location.href = 'secondary.php';
+        });
+}
+
+function registerLink() {
+    // Try primary
+    fetch('primary.php', {method: 'HEAD'})
+        .then(response => {
+            if (response.ok) {
+                window.location.href = '/public/auth/register/register.php';
+            } else {
+                window.location.href = '../../../DNSC_SMS/public/auth/register/register.php';
+            }
+        })
+        .catch(() => {
+            // If fetch fails completely
+            window.location.href = '../../../DNSC_SMS/public/auth/register/register.php';
+        });
+}
+
+</script>

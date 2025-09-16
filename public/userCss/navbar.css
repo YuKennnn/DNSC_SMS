@@ -7,7 +7,7 @@
 }
 
 .navbar-nav.nav-pills .nav-link.active{
-    background-color:var(--bs-primary);
+    background-color:var(--bs-success);
     color: white;
 }
 .d-flex img.btn{

@@ -1,3 +1,48 @@
+    <?php
+        
+
+    session_start();
+
+
+
+    require_once "../../../app/database/database.php";
+
+
+    $message = '';
+
+    $conn = getDBConnection();
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        echo "Form was submitted!<br>";
+        var_dump($_POST); // makita nato kung na-submit ba ang fields
+
+
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+
+        // Query user with prepared statement
+        $stmt = $conn->prepare("SELECT * FROM user_accounts WHERE email = ?");
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $user = $result->fetch_assoc();
+
+        // Check password
+        if ($user && password_verify($password, $user['password'])) { // Replace this line with password_verify if hashed
+            $_SESSION['user_logged_in'] = true;    
+            $_SESSION['username'] = $user['email'];
+            header("Location: ../../user/main.php");
+            exit();
+        } else {
+            $_SESSION['login_error'] = "Invalid email or password.";
+            header("Location: login.php"); // Stay on login page
+
+            exit();
+        }
+    }
+    ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,19 +75,19 @@
                     </i>
                 </h2>
             
-            <form action="../../user/main.php" method="post">
+            <form action="" method="post">
 
                 <div class="d-flex flex-column justify-content-center me-2">
                     <div class="mb-3 ">
                     
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" name="password" class="form-control" id="email" placeholder="Enter your Email address" required>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Enter your Email address" required autocomplete="off">
             
                     </div>
 
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required>
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required autocomplete="off">
                     </div>
                     <div class="mb-3">
                         <input type="checkbox" class="form-check-input is-valid" name="checkbox" id="checkbox">
