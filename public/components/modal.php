@@ -1,5 +1,5 @@
 <div class="modal modal-xl fade justify-content-center" tabindex="-1" id="imagePreview">
-        <div class="modal-dialog">
+        <div class="modal-dialog w-50">
             <div class="modal-content">
                 <div class="modal-header">
                     <i class="bi bi-eye-fill fs-2 ms-3">
