@@ -56,7 +56,7 @@
 </head>
 <body>
 <div class="position-absolute top-0 left-0">
-    <a href="../../index.php" class="btn ms-4" style="margin-top: 5rem;">
+    <a href="/public/landing.php" class="btn ms-4" style="margin-top: 5rem;">
         <i class="bi bi-arrow-left-circle-fill text-success fs-1"></i>
     </a>
 </div>    

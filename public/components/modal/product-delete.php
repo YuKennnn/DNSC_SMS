@@ -1,5 +1,5 @@
-<div class="modal modal-xl fade justify-content-center ps-5" tabindex="-1" id="imageDelete">
-        <div class="modal-dialog">
+<div class="modal modal-xl fade justify-content-center ps-5 pb-5" tabindex="-1" id="imageDelete">
+        5<div class="modal-dialog modal-dialog-centered me-5">
             <div class="modal-content w-50">
                 <div class="modal-header">
                     <i class="bi bi-eye-fill fs-2 ms-3">

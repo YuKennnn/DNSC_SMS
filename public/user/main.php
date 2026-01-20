@@ -53,7 +53,7 @@ if (!isset($_SESSION['user_logged_in']) || $_SESSION['user_logged_in'] !== true)
           <a href="#" class="nav-link fs-5">My Wishlist</a>
         </li>
         <li class="nav-item">
-          <a href="../../public/index.php" class="nav-link fs-5">Sign Out</a>
+          <a href="../../public/landing.php" class="nav-link fs-5">Sign Out</a>
         </li>
       </ul>
     </div>

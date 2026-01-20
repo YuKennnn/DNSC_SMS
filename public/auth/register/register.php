@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
     <div class="position-absolute top-0 left-0">
-    <a href="../../index.php" class="btn text-success ms-4" style="margin-top: 5rem;">
+    <a href="../../landing.php" class="btn text-success ms-4" style="margin-top: 5rem;">
         <i class="bi bi-arrow-left-circle-fill text-success fs-1"></i>
     </a>
     </div>
